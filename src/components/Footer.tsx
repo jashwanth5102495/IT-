@@ -2,13 +2,13 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 border-t border-gray-800">
+    <footer className="relative z-30 bg-gray-900 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <div className="text-2xl font-bold text-white mr-2">.XYZ</div>
+              <div className="text-2xl font-bold text-white mr-2">JasNav</div>
               <div className="text-xl font-semibold text-gray-300">IT Solutions</div>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
@@ -61,8 +61,8 @@ const Footer = () => {
                 </svg>
                 <div>
                   <p className="text-gray-400 text-sm">Email</p>
-                  <a href="mailto:info@xyzitsolutions.com" className="text-white hover:text-blue-400 transition-colors">
-                    info@xyzitsolutions.com
+                  <a href="mailto:info@jasnavitsolutions.com" className="text-white hover:text-blue-400 transition-colors">
+                info@jasnavitsolutions.com
                   </a>
                 </div>
               </div>
@@ -73,9 +73,14 @@ const Footer = () => {
                 </svg>
                 <div>
                   <p className="text-gray-400 text-sm">Phone</p>
-                  <a href="tel:+1234567890" className="text-white hover:text-green-400 transition-colors">
-                    +1 (234) 567-8900
-                  </a>
+                  <div className="space-y-1">
+                    <a href="tel:+918971400654" className="text-white hover:text-green-400 transition-colors block">
+                      +91 89714 00654
+                    </a>
+                    <a href="tel:+918328246413" className="text-white hover:text-green-400 transition-colors block">
+                      +91 8328246413
+                    </a>
+                  </div>
                 </div>
               </div>
               
@@ -87,9 +92,9 @@ const Footer = () => {
                 <div>
                   <p className="text-gray-400 text-sm">Office</p>
                   <p className="text-white">
-                    123 Tech Street<br />
-                    Innovation District<br />
-                    City, State 12345
+                    Devanahalli<br />
+                    Bengaluru, Karnataka<br />
+                    India
                   </p>
                 </div>
               </div>
@@ -101,7 +106,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 .XYZ IT Solutions. All rights reserved.
+              
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
