@@ -111,8 +111,8 @@ const Contact = () => {
               <h3 className="text-xl font-bold text-white">Phone</h3>
             </div>
             <p className="text-gray-300 mb-4">Call us for immediate assistance and urgent matters.</p>
-            <a href="tel:+1234567890" className="text-green-400 hover:text-green-300 transition-colors">
-              +1 (234) 567-8900
+            <a href="tel:+919876543210" className="text-green-400 hover:text-green-300 transition-colors">
+              +91 98765 43210
             </a>
           </div>
 
@@ -129,9 +129,9 @@ const Contact = () => {
             </div>
             <p className="text-gray-300 mb-4">Visit our office for in-person meetings and consultations.</p>
             <p className="text-purple-400">
-              123 Tech Street<br />
-              Innovation District<br />
-              City, State 12345
+              Devanahalli<br />
+              Bengaluru, Karnataka<br />
+              India - 562110
             </p>
           </div>
         </div>
