@@ -61,8 +61,8 @@ const Footer = () => {
                 </svg>
                 <div>
                   <p className="text-gray-400 text-sm">Email</p>
-                  <a href="mailto:info@jasnavitsolutions.com" className="text-white hover:text-blue-400 transition-colors">
-                info@jasnavitsolutions.com
+                  <a href="mailto:info@jasnav.co.in" className="text-white hover:text-blue-400 transition-colors">
+                  info@jasnav.co.in
                   </a>
                 </div>
               </div>
