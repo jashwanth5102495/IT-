@@ -1,11 +1,13 @@
 import { useRef } from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import RotatingBackgrounds from './backgrounds/RotatingBackgrounds';
 import VariableProximity from './VariableProximity';
 import RotatingText from './RotatingText';
 
 const Hero = () => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
 
   return (
     <section id="hero-section" className="bg-black min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
@@ -18,7 +20,7 @@ const Hero = () => {
       <div ref={containerRef} className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         {/* Top badge - End-to-End Project Monitoring */}
         <motion.button 
-          onClick={() => window.location.href = '/project-tracking'}
+          onClick={() => navigate('/project-tracking')}
           className="inline-flex items-center space-x-2 bg-gray-900/50 border border-gray-700 rounded-full px-4 py-2 mb-8 group relative cursor-pointer"
           whileHover={{ 
             scale: 1.05,
