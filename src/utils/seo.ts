@@ -153,7 +153,7 @@ export const generateStructuredData = (type: 'Organization' | 'WebPage' | 'Servi
 // Function to track page views (can be integrated with analytics)
 export const trackPageView = (pageName: string) => {
   // This can be integrated with Google Analytics, Facebook Pixel, etc.
-  console.log(`Page view tracked: ${pageName}`);
+  console.log(`Page viewed: ${pageName}`);
   
   // Example Google Analytics 4 tracking (uncomment when GA4 is set up)
   // if (typeof gtag !== 'undefined') {

@@ -12,7 +12,7 @@ const Contact = () => {
             <span className="text-gray-400 text-sm">• Get In Touch</span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-8">
-            Contact Us
+            Get in Touch with Jasnav
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             We're here to help you with your technology needs. Get in touch with our team.

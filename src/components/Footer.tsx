@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <div className="text-2xl font-bold text-white mr-2">JasNav</div>
+              <div className="text-2xl font-bold text-white mr-2">Jasnav</div>
               <div className="text-xl font-semibold text-gray-300">IT Solutions</div>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">

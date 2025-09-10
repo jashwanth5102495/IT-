@@ -165,10 +165,10 @@ const About = () => {
         {/* Company Description */}
         <div className="mt-20 bg-gray-900 rounded-3xl p-12 border border-gray-800">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center text-white">About JasNav IT Solutions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-white">About Jasnav IT Solutions</h2>
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>
-                At <strong className="text-white">JasNav IT Solutions</strong>, we believe technology should do more than just keep up—it should set the trend. We are a full-service software company specializing in building modern, scalable, and user-friendly solutions that help businesses grow and succeed in the digital age.
+                At <strong className="text-white">Jasnav IT Solutions</strong>, we believe technology should do more than just keep up—it should set the trend. We are a full-service software company specializing in building modern, scalable, and user-friendly solutions that help businesses grow and succeed in the digital age.
               </p>
               <p>
                 From end-to-end project management to delivering web applications, mobile applications, and e-commerce platforms, our team ensures every project is completed on time, with precision, and with world-class design. With expertise in AI integration and automation, we bring the future into today's solutions, empowering our clients to stay ahead of the curve.

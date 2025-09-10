@@ -143,7 +143,7 @@ const Header = ({ hideDock = false }: HeaderProps) => {
                 {/* Right - Logo or Brand */}
                 <div className="flex items-center">
                     <div className="text-white/90 font-bold text-sm">
-                        JasNav
+                        Jasnav
                     </div>
                 </div>
             </nav>
